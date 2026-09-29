@@ -115,13 +115,13 @@ Performance results depend on image size, image count, storage speed, CPU resour
 
 The pipeline processes multiple images through the Loader, Filter, Enhancer, and Saver stages concurrently.
 
-![Parallel image-processing pipeline execution](screenshots/pipeline-execution.jpg)
+![Parallel image-processing pipeline execution](screenshots/pipeline-execution.JPG)
 
 ### Performance Benchmark
 
 The project includes a benchmark mode that compares sequential image processing with the concurrent pipeline.
 
-![Sequential vs parallel performance results](screenshots/benchmark-results.jpg)
+![Sequential vs parallel performance results](screenshots/benchmark-results.JPG)
 
 The recorded test processed three images in approximately **0.7721 seconds sequentially** and **0.7164 seconds using the pipeline**, producing a measured speedup of approximately **1.08x**. Performance varies depending on the workload and system configuration.
 
@@ -129,7 +129,7 @@ The recorded test processed three images in approximately **0.7721 seconds seque
 
 Benchmark mode first processes the images sequentially and then executes the parallel pipeline using the same image set.
 
-![Sequential and parallel benchmark execution](screenshots/benchmark-execution.jpg)
+![Sequential and parallel benchmark execution](screenshots/benchmark-execution.JPG)
 
 ## Project Contribution
 
